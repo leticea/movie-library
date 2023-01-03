@@ -9,14 +9,20 @@ const Navbar = () => {
   const [search, setSearch] = useState("");
   const navigate = useNavigate();
 
-  
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    if(!search) return;
+
+    
+  }
 
   return (
     <nav id="navbar">
     <h2>
       <Link to='/'><BiCameraMovie />MovieLibrary</Link>
     </h2>
-    <form>
+    <form onSubmit={handleSubmit}>
       <input 
         type="text" 
         placeholder="Busque um filme" 
