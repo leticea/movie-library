@@ -17,16 +17,34 @@ const Movie = () => {
   const {id} = useParams();
   const [movie, setMovie] = useState(null);
 
-  const getMovie = async(url) {
+  const getMovie = async(url) => {
     const res = await fetch(url);
     const data = await res.json();
 
     setMovie(data);
   }
 
-  
+  useEffect(() => {
+    const movieUrl = `${moviesURL}${id}?${apiKey}`;
+    getMovie(movieUrl);
+  }, []);
 
-  return <div>Movie</div>
+  return (
+    <div className="movie-page">
+      {movie && (
+        <>
+          <MovieCard movie={movie} showLink={false} />
+          <p className="tagline">{movie.tagline}</p>
+          <div className="info">
+            <h3>
+              <BsWallet2 /> Orçamento
+            </h3>
+            <p>{movie.budget}</p>
+          </div>
+        </>
+      )}
+    </div>
+  )
 };
 
 export default Movie;
