@@ -24,7 +24,7 @@ const Search = () => {
     const searchWithQueryURL = `${searchURL}?${apiKey}&query=${query}`;
 
     getSearchedMovies(searchWithQueryURL);
-  }, []);
+  }, [query]);
 
   return (
     <div className="container">
