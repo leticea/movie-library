@@ -13,4 +13,15 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.movies-container div {
+  width: 30%;
+  color: #FFF;
+  margin-bottom: 2.5rem;
+  display: flex;
+  flex-direction: column;
 }
