@@ -8,7 +8,7 @@
 <br>
 
 <p align="center">
-  <img alt="movies" src=".github/image.png">
+  <img alt="movies" src=".github/image1.png">
 </p>
 <p align="center">
   <img alt="movie" src=".github/image2.png">
