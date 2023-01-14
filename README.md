@@ -32,10 +32,8 @@ Aula do canal [Matheus Battisti](https://www.youtube.com/watch?v=XqxUHVVO7-U&t=2
 
 ## 🚀 Como Rodar
 
-- Clone o projeto.
-- Entre no repositório e rode npm create vite@latest;
-- Entre na pasta que foi criada a partir do comando acima e rode npm install;
-- Adicione as dependências com npm install react-icons react-router-dom (para ícones e pacote de rotas);
+- Clone o projeto;
+- Rode npm install react-icons react-router-dom (para ícones e pacote de rotas);
 - npm run dev (para rodar o projeto na porta indicada);
 
 ## 🤔 Como contribuir
