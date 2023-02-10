@@ -33,7 +33,7 @@ Aula do canal [Matheus Battisti](https://www.youtube.com/watch?v=XqxUHVVO7-U&t=2
 ## 🚀 Como Rodar
 
 - Clone o projeto;
-- Rode npm install react-icons react-router-dom (para ícones e pacote de rotas);
+- Rode npm install (ou yarn install de acordo com a sua configuração);
 - npm run dev (para rodar o projeto na porta indicada);
 
 ## 🤔 Como contribuir
