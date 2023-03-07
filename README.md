@@ -8,10 +8,10 @@
 <br>
 
 <p align="center">
-  <img alt="movies" src=".github/image1.png">
+  <img alt="" src=".github/image1.png">
 </p>
 <p align="center">
-  <img alt="movie" src=".github/image2.png">
+  <img alt="" src=".github/image2.png">
 </p>
 
 ## Movie Library
@@ -20,8 +20,8 @@
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
-- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [ReactJS](https://reactjs.org/)
 
 ## 💻 Projeto
