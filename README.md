@@ -14,7 +14,7 @@
   <img alt="" src=".github/image2.png">
 </p>
 
-## Movie Library
+# Movie Library
 
 ## 🚀 Tecnologias
 
@@ -26,7 +26,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Projeto de uma biblioteca de filmes com react e API do TMDB.
+Projeto de uma biblioteca de filmes com react e API do [TMDB](https://www.themoviedb.org/?language=pt-BR).
 
 Aula do canal [Matheus Battisti](https://www.youtube.com/watch?v=XqxUHVVO7-U&t=244s)
 
