@@ -30,7 +30,7 @@ Projeto de uma biblioteca de filmes com react e API do [TMDB](https://www.themov
 
 Aula do canal [Matheus Battisti](https://www.youtube.com/watch?v=XqxUHVVO7-U&t=244s)
 
-## 🚀 Como Rodar
+## ⚙️ Como Rodar
 
 - Clone o projeto;
 - Rode npm install (ou yarn install de acordo com a sua configuração);
